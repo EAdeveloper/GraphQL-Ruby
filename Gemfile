@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'graphql', '1.4.4'
+gem 'graphql'
 
 
 # Use Capistrano for deployment
@@ -51,4 +51,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'graphiql-rails', '1.4.4', group: :development
+gem 'graphiql-rails', group: :development
